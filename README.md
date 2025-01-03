@@ -9,7 +9,7 @@
 
 **Register the necessary components**
 
-```ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);```\
+``ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);``
 =======
 # Line Chart React js
 
