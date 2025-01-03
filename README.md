@@ -1,8 +1,11 @@
-# React + Vite
+# Line Chart js 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Chart image](<Line Chart picture.PNG>)
 
-Currently, two official plugins are available:
+**import necessary components**
+<br/>
+`` import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';``
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Register the necessary components**
+
+```ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);```\
