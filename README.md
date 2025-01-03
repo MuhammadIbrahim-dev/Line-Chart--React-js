@@ -1,3 +1,4 @@
+
 # Line Chart js 
 
 ![Chart image](<Line Chart picture.PNG>)
@@ -9,3 +10,7 @@
 **Register the necessary components**
 
 ```ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);```\
+=======
+# Line Chart React js
+
+
